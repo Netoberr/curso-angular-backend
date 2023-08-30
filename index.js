@@ -1,6 +1,6 @@
 import express from 'express';
 import Database from './db.js';
-import router from './routes/router.js';
+import router from './src/routes/router.js';
 
 async function main() {
   try {
